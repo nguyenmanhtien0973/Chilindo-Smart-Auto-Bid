@@ -18,3 +18,4 @@ Xem Video hướng dẫn tại: <cập nhật sau>
 2. Chương trình cài thêm: Tampermonkey
 
 Bản quyền thuộc về: Crack
+Tags: Chilindo, đấu giá, tự động, hack, công cụ, bid, thông minh
