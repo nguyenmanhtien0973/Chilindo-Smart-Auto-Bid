@@ -5,6 +5,9 @@
 // @description  Intelligent autobid script
 // @author       DuyLTV
 // @match       http://www.chilindo.com/product/*
+// @match       http://www.chilindo.com/vn/product/*
+// @match       http://www.chilindo.com/vn/Product/*
+// @match       http://www.chilindo.com/vn/auction/*
 // @grant        none
 // ==/UserScript==
 
