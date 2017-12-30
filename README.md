@@ -2,7 +2,7 @@
 
 <h2>Tự động bid Chilindo thông minh</h2>
 
-Xem Video hướng dẫn tại: <cập nhật sau>
+Xem Video hướng dẫn tại: https://www.youtube.com/watch?v=b53AZVaAr5I
 
 <h3>I. GIỚI THIỆU</h3>
 
