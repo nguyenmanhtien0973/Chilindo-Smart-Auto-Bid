@@ -1,20 +1,22 @@
 // ==UserScript==
 // @name         Chilindo Smart Auto Bid
 // @namespace    http://www.commandlab.net
-// @version      0.1
+// @version      0.2
 // @description  Intelligent autobid script
 // @author       DuyLTV
 // @match       http://www.chilindo.com/product/*
 // @match       http://www.chilindo.com/vn/product/*
+// @match       https://www.chilindo.com/vn/product/*
 // @match       http://www.chilindo.com/vn/Product/*
 // @match       http://www.chilindo.com/vn/auction/*
+// @match       https://www.chilindo.com/vn/Product/*
 // @grant        none
 // ==/UserScript==
 
 (function() {
     'use strict';
     var maxPrice = 10;
-    var myId = 'duy.nguyễn.190133';
+    var myId = 'duy.nguyễn.164053';
 
     // PRODUCT TABLE
     var productTable = [
@@ -24,8 +26,6 @@
         'pin',
         'khoan',
         'bộ công cụ',
-        'máy ép kem đánh răng',
-        'máy dò cá'
     ];
     // TABLE OF PRICE
     var priceTable = {
@@ -33,10 +33,8 @@
         'đai': 10,
         'loa': 15,
         'pin': 15,
-        'khoan': 25,
+        'khoan': 15,
         'bộ công cụ': 15,
-        'máy ép kem đánh răng': 15,
-        'máy dò cá': 65
     };
 
     function getText(el) {
@@ -66,7 +64,7 @@
         setInterval(function(){
             var timeelement = document.getElementById('spanCountDown');
             var time = getText(timeelement);
-            var currentWinnerElement =  document.getElementsByClassName('current_winner')[0]; 
+            var currentWinnerElement = document.getElementsByClassName('current_winner')[0];
             var currentWinner = getText(currentWinnerElement).split(" ");
             var priceElement = document.getElementById('ContentPlaceHolder1_txtBidNew');
             var price_value = priceElement.value;
