@@ -15,7 +15,7 @@
 
 (function() {
     'use strict';
-    var maxPrice = 10;
+    var maxPrice = 40;
     var myId = 'duy.nguyễn.164053';
 
     // PRODUCT TABLE
